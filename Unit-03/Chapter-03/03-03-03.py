@@ -1,4 +1,5 @@
-num = int(input())
+for i in range(15, -1, -1):
+    print(f'{i} days till holidays!')
 
-for i in range(num, 0, -1):
-    print('*'*i)
+if i == 1:
+    print('Happy holidays!')

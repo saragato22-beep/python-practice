@@ -1,8 +1,7 @@
-num = int(input())
+A = int(input())
+B = int(input())
+K = int(input())
 
-factorial = 1
-
-for i in range(1, num+1):
-    factorial = i*factorial
-
-print(factorial)
+for i in range(A, B + 1, K):
+    print(i)
+    
